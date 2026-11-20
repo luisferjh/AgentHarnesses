@@ -1,0 +1,135 @@
+## .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+PublishScripts/
+
+## .NET / NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+.nuget/
+*.nuget.props
+*.nuget.targets
+launchSettings.json.user
+
+## Test results and coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+coverage/
+TestResults/
+*.VisualState.xml
+.hypothesis/
+BenchmarkDotNet.Artifacts/
+
+## ASP.NET / app secrets and local configuration
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.snk
+.env
+.env.*
+!.env.example
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pubxml.user
+wwwroot/dist/
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+
+## Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+## Visual Studio
+.vs/
+*.rsuser
+*.vspscc
+*.vssscc
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+_NCrunch_*
+.axoCover/*
+*.dotCover
+*.sln.ide/
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## VS Code (keep shared settings, ignore personal ones)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.code-workspace
+
+## AI agent local/personal files (shared harness configs are tracked)
+.claude/settings.local.json
+CLAUDE.local.md
+.codex/auth.json
+.opencode/node_modules/
+.opencode/*.log
+.copilot/session-state/
+.aider*
+.cursor/*.local.*
+
+## Node tooling (agent plugins, MCP servers)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+## Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+*.orig
+
+## OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
